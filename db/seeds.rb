@@ -30,7 +30,7 @@ pilsner.beers.create(name: "Lager of the Lakes", brewery: "Bell's", description:
     ibu: 34, abv: 5, image: "http://www.bellsbeer.com/sites/default/files/brands/Lager_Pilsner%20glass_web%20pic.png", likes: 0)
 
 porter.beers.create(name: "Porter", brewery: "Founders", description: "Pours silky black with a creamy tan head. The nose is sweet with strong chocolate and caramel malt presence. No absence of hops gives Founders’ robust porter the full flavor you deserve and expect. Cozy like velvet. It’s a lover, not a fighter.",
-    ibu: 45, abv: 6.5, image: "https://foundersbrewing.com/wp-content/uploads/2017/08/2018_Porter_Featured.jpg"), likes: 0
+    ibu: 45, abv: 6.5, image: "https://foundersbrewing.com/wp-content/uploads/2017/08/2018_Porter_Featured.jpg", likes: 0)
 
 wheat.beers.create(name: "Rind Over Matter", brewery: "Bell's", description: "We’ve been brewing wheat ales for decades, but now we’re adding real fruit. Real orange and lemon zest gives Rind Over Matter a citrus flavor that refreshing and crushable. Rind Over Matter will delight fans of Oberon and other wheat ales: bright citrus flavors up front that finishes smooth.",
     ibu: 0, abv: 5, image: "http://www.bellsbeer.com/always-inspired/wp-content/uploads/2021/09/ROM_BEER_CANS-1-768x777.jpg", likes: 0)
