@@ -11,4 +11,16 @@ class BeersController < ApplicationController
         else
             render json: {message: "Beer not found."}
     end
+
+    def update
+        if @beer.update(beer_params)
+          render json: @beer
+        else
+          render json: {message: "Error"}
+        end
+      end
+
+      def beer_params
+        params.require(:beer).permit(:likes)
+      end
 end

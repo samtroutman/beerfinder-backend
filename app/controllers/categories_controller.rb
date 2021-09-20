@@ -13,3 +13,4 @@ class CategoriesController < ApplicationController
             render json: {message: "Category not found."}
     end
 end
+end
