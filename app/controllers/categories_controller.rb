@@ -12,5 +12,17 @@ class CategoriesController < ApplicationController
         else
             render json: {message: "Category not found."}
     end
+
+    def update
+        if @category.update(category_params)
+          render json: @category
+        else
+          render json: {message: "Error"}
+        end
+      end
+
+      def beer_params
+        params.require(:category).permit(:name)
+      end
 end
 end
