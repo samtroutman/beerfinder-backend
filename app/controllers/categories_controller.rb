@@ -21,7 +21,7 @@ class CategoriesController < ApplicationController
         end
       end
 
-      def beer_params
+      def category_params
         params.require(:category).permit(:name)
       end
 end
