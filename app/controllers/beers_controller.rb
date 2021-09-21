@@ -14,8 +14,9 @@ class BeersController < ApplicationController
     end
 
     def update
-        if @beer.update(beer_params)
-          render json: @beer
+        beer = Beer.find_by(id: params[:id])
+        if beer.update(beer_params)
+          render json: beer
         else
           render json: {message: "Error"}
         end
