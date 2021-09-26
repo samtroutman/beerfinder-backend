@@ -5,12 +5,14 @@ class BeersController < ApplicationController
     end
 
     def show 
-        beer = Beer.find_by(id: params[:id])
-        if beer 
-            render json: beer
-        else
-            render json: {message: "Beer not found."}
-        end
+      # beers = Beer.find_by(id: params[:id]) 
+      # render json: BeerSerializer.new(beers.sample)
+      beers = Beer.all
+      # if beer 
+            render json: beers.sample
+        # else
+        #     render json: {message: "Beer not found."}
+        # end
     end
 
     def update
