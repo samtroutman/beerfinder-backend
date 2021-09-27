@@ -11,7 +11,7 @@ This app utilizes a Rails API back-end as well as a Javascript front-end.
 <li>Navigate to the top of the 'beerfinder' directory</li>
 <li>Install required gem dependencies (bundle install)</li>
 <li>Create, migrate, and seed the database (rails db:create, rails db:migrate, rails db:seed)</li>
-<li>Start your rails server (rails s</li>
+<li>Start your rails server (rails s)</li>
 <li>Open index.html in your browser</li>
 <li>Find your next beer!</li>
 </ul>
