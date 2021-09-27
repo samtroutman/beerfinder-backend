@@ -1,24 +1,17 @@
-# README
+<h1>Beerfinder</h1>
+Beerfinder allows a user to get random beers from a database, see all beers in a category, and like them.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app utilizes a Rails API back-end as well as a Javascript front-end.
 
-Things you may want to cover:
+<h2>Getting Started</h2>
+<p>To get started using this app do the following:</p>
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<ul>
+<li>Create a beerfinder folder, and clone the repositories inside it (backend and frontend)</li>
+<li>Navigate to the top of the 'beerfinder' directory</li>
+<li>Install required gem dependencies (bundle install)</li>
+<li>Create, migrate, and seed the database (rails db:create, rails db:migrate, rails db:seed)</li>
+<li>Start your rails server (rails s</li>
+<li>Open index.html in your browser</li>
+<li>Find your next beer!</li>
+</ul>
