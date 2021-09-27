@@ -15,3 +15,8 @@ This app utilizes a Rails API back-end as well as a Javascript front-end.
 <li>Open index.html in your browser</li>
 <li>Find your next beer!</li>
 </ul>
+
+<a href="https://github.com/samtroutman/beerfinder-frontend">Beerfinder frontend</a>
+
+
+<a href="https://github.com/samtroutman/beerfinder-backend">Beerfinder backend</a>
